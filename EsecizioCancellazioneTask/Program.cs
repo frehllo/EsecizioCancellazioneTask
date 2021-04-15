@@ -62,7 +62,7 @@ namespace EsecizioCancellazioneTask
                     {
                         if (token.IsCancellationRequested)
                         {
-                            Console.WriteLine("E' richiesto un annullamento");
+                            Console.WriteLine("E' richiesto un annullamento ");
                             break;
                         }
                         Console.WriteLine($"CurrentTask id={Task.CurrentId}. Value={i}.");
